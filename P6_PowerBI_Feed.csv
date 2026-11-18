@@ -1,0 +1,79 @@
+Activity ID,Activity Name,WBS,Planned Duration (Days),Remaining Duration (Days),Total Float (Days),Planned Start,Planned Finish,Status,Criticality,Physical % Complete
+EC1300,Award Contract for Flooring,Floor and Carpeting,4.925,4.925,231.08125,2011-05-27,2011-06-03,Not Started,Normal,0.0
+EC1090,Begin Building Construction,Foundation,0.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,0.0
+EC1360,Form and Pour Slab,Foundation,12.125,12.125,126.910416625,2011-08-26,2011-09-12,Not Started,Normal,0.0
+EC1510,Rough-In Plumbing/Piping,Plumbing and Electrical,2.547916625,2.547916625,72.3375,2012-08-24,2012-08-29,Not Started,Normal,0.0
+EC1800,Finish Carpentry and Millwork,Carpentry,12.0,12.0,0.0,2013-06-03,2013-06-19,Not Started,Critical,0.0
+EC1480,Concrete Second Floor,Structure,36.0,36.0,126.910416625,2012-03-01,2012-04-20,Not Started,Normal,0.0
+EC1090,Begin Building Construction,Foundation,0.0,0.0,165.110416625,2011-09-22,2011-09-22,Not Started,Normal,0.0
+EC1490,Rough-In Phase Begins,Mechanical/Electrical Systems,0.0,0.0,216.972916625,2011-11-03,2011-11-03,Not Started,Normal,0.0
+EC1690,Rough In Complete,Mechanical/Electrical Systems,0.0,0.0,0.0,2012-09-05,2012-09-05,Not Started,Critical,0.0
+EC1270,Award Contract for Heat Pump,HVAC,6.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1190,Prepare and Solicit Bids for Heat Pump,HVAC,12.6,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1240,Review Bids for Heat Pump,HVAC,8.4,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1290,Fabricate and Deliver Heat Pump and Controls,HVAC,369.6,333.272916625,0.0,2011-05-02,2012-08-09,In Progress,Critical,14.0
+EC1500,Install HVAC Ducts,HVAC,21.0,21.0,174.972916625,2011-11-03,2011-12-02,Not Started,Normal,0.0
+EC1630,Insulate Ducts,HVAC,4.2,4.2,135.772916625,2012-01-26,2012-02-01,Not Started,Normal,0.0
+EC1650,Set Heat Pump,HVAC,10.5,10.5,0.0,2012-08-09,2012-08-23,Not Started,Critical,0.0
+EC1680,Startup and Test HVAC,HVAC,2.1,2.1,0.0,2012-09-03,2012-09-05,Not Started,Critical,0.0
+EC1770,Install AC Grills and Registers,HVAC,5.0,5.0,18.5,2012-10-30,2012-11-06,Not Started,Normal,0.0
+EC1830,Test and Balance HVAC Equipment,HVAC,2.1,2.1,0.0,2013-01-03,2013-01-07,Not Started,Critical,0.0
+EC1670,Relocate HVAC Chiller,HVAC,6.3,6.3,0.0,2012-08-23,2012-09-03,Not Started,Critical,0.0
+EC1520,Install Elevator Rails and Equipment,Elevator,2.1,2.1,202.972916625,2011-11-23,2011-11-25,Not Started,Normal,0.0
+EC1710,Install Elevator Cab and Finishes,Elevator,4.2,4.2,79.8,2012-09-05,2012-09-11,Not Started,Normal,0.0
+EC1440,Set Mechanical and Electrical Equipment,Plumbing and Electrical,31.5,31.5,174.972916625,2011-09-20,2011-11-03,Not Started,Normal,0.0
+EC1510,Rough-In Plumbing/Piping,Plumbing and Electrical,2.1,2.1,175.472916625,2011-11-09,2011-11-11,Not Started,Normal,0.0
+EC1640,Install Wiring and Cable,Plumbing and Electrical,31.5,31.5,124.272916625,2012-01-26,2012-03-09,Not Started,Normal,0.0
+EC1660,Connect Equipment,Plumbing and Electrical,1.0,1.0,5.3,2012-08-23,2012-08-24,Not Started,Normal,0.0
+EC1590,Close-In Phase Begins,Exterior Finishes,0.0,0.0,272.272916625,2011-12-28,2011-12-28,Not Started,Normal,0.0
+EC1620,Building Enclosed,Exterior Finishes,0.0,0.0,124.272916625,2012-01-26,2012-01-26,Not Started,Normal,0.0
+EC1560,Install Door and Window Frames,Doors and Windows,2.1,2.1,148.672916625,2011-12-14,2011-12-16,Not Started,Normal,0.0
+EC1580,Install Exterior Doors and Windows,Doors and Windows,4.2,4.2,148.672916625,2011-12-16,2011-12-22,Not Started,Normal,0.0
+EC1600,Insulation and Built-up Roofing,Roof,21.0,21.0,124.272916625,2011-12-28,2012-01-26,Not Started,Normal,0.0
+EC1180,Prepare and Solicit Bids for Brick Exterior,Brick,12.6,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1220,Review Bids for Brick,Brick,12.6,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1260,Award Contract for Brick,Brick,4.2,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1040,Assemble Brick Samples,Brick,0.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,0.0
+EC1070,Review and Approve Brick Samples,Brick,21.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1280,Deliver Brick,Brick,1.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1550,Brick Exterior Walls,Brick,14.7,14.7,124.272916625,2011-12-07,2011-12-28,Not Started,Normal,0.0
+EC1700,Drywall in Offices,Interior Finishes,31.5,31.5,0.0,2012-09-05,2012-10-18,Not Started,Critical,0.0
+EC1820,Touch-up and Clean-up,Interior Finishes,2.1,2.1,0.0,2013-01-01,2013-01-03,Not Started,Critical,0.0
+EC1840,Finishes Complete,Interior Finishes,0.0,0.0,0.0,2013-01-07,2013-01-07,Not Started,Critical,0.0
+EC1850,Punch List,Interior Finishes,4.2,4.2,0.0,2013-01-07,2013-01-11,Not Started,Critical,0.0
+EC1860,Building Addition Complete,Interior Finishes,0.0,0.0,0.0,2013-01-11,2013-01-11,Not Started,Critical,0.0
+EC1760,Install Lighting Fixtures,Plumbing and Lighting Fixtures,6.3,6.3,17.2,2012-10-30,2012-11-07,Not Started,Normal,0.0
+EC1810,Install Plumbing Fixtures,Plumbing and Lighting Fixtures,4.2,4.2,6.3,2012-12-17,2012-12-21,Not Started,Normal,0.0
+EC1170,Prepare and Solicit Bids for Flooring,Floor and Carpeting,21.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1250,Review Bids for Flooring,Floor and Carpeting,12.6,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1300,Award Contract for Flooring,Floor and Carpeting,4.2,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1060,Assemble and Submit Flooring Samples,Floor and Carpeting,0.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,0.0
+EC1080,Review and Approve Flooring,Floor and Carpeting,21.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1310,Fabricate and Deliver Flooring,Floor and Carpeting,243.6,199.6,215.572916625,2011-05-02,2012-02-03,In Progress,Normal,23.0
+EC1790,Install Floor and Carpeting,Floor and Carpeting,10.5,10.5,0.0,2012-12-03,2012-12-17,Not Started,Critical,0.0
+EC1720,Paint Building Interior,Paint,10.5,10.5,66.5,2012-09-14,2012-09-28,Not Started,Normal,0.0
+EC1740,Install Ceiling Grid,Carpentry,31.5,31.5,0.0,2012-10-18,2012-12-03,Not Started,Critical,0.0
+EC1800,Finish Carpentry and Millwork,Carpentry,10.5,10.5,0.0,2012-12-17,2013-01-01,Not Started,Critical,0.0
+EC1000,Design Building Addition,Design and Engineering,48.3,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1050,Assemble Technical Data for Heat Pump,Design and Engineering,6.3,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1160,Review Technical Data on Heat Pumps,Design and Engineering,21.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1030,Review and Approve Designs,Design and Engineering,18.9,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1010,Start Office Building Addition Project,Design and Engineering,0.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,0.0
+EC1090,Begin Building Construction,Foundation,0.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,0.0
+EC1100,Site Preparation,Foundation,37.8,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1230,Excavation,Foundation,21.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1320,Install Underground Water Lines,Foundation,10.5,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1330,Install Underground Electric Conduit,Foundation,10.5,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1340,Form/Pour Concrete Footings,Foundation,21.0,0.0,0.0,2011-05-01,2011-05-01,Completed,Critical,100.0
+EC1350,Concrete Foundation Walls,Foundation,21.0,8.5,124.272916625,2011-05-02,2011-05-12,In Progress,Normal,70.0
+EC1370,Backfill and Compact Walls,Foundation,4.2,4.2,124.272916625,2011-05-27,2011-06-02,Not Started,Normal,0.0
+EC1380,Foundation Phase Complete,Foundation,0.0,0.0,187.710416625,2011-06-02,2011-06-02,Not Started,Normal,0.0
+EC1360,Form and Pour Slab,Foundation,10.5,10.5,124.272916625,2011-05-12,2011-05-26,Not Started,Normal,0.0
+EC1410,Begin Structural Phase,Structure,0.0,0.0,379.372916625,2011-08-01,2011-08-01,Not Started,Normal,0.0
+EC1390,Erect Structural Frame,Structure,42.0,42.0,124.272916625,2011-06-02,2011-08-01,Not Started,Normal,0.0
+EC1420,Floor Decking,Structure,29.4,29.4,124.272916625,2011-08-01,2011-09-09,Not Started,Normal,0.0
+EC1460,Erect Stairwell and Elevator Walls,Structure,21.0,21.0,134.772916625,2011-10-25,2011-11-23,Not Started,Normal,0.0
+EC1430,Concrete First Floor,Structure,31.5,31.5,124.272916625,2011-09-09,2011-10-25,Not Started,Normal,0.0
+EC1470,Concrete Basement Slab,Structure,21.0,21.0,134.772916625,2011-10-25,2011-11-23,Not Started,Normal,0.0
+EC1540,Structure Complete,Structure,0.0,0.0,124.272916625,2011-12-07,2011-12-07,Not Started,Normal,0.0
+EC1480,Concrete Second Floor,Structure,31.5,31.5,124.272916625,2011-10-25,2011-12-07,Not Started,Normal,0.0

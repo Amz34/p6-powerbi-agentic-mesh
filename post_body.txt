@@ -1,0 +1,29 @@
+Manual schedule reporting in construction is officially dead.
+
+For 25 years, planning engineers have repeated the exact same mundane cycle every Thursday night: export .XER, fight Excel formulas, wrestle with broken links, and manually copy-paste variance numbers into static management slide decks.
+
+Today, we are eliminating that entire manual overhead.
+
+We built and open-sourced the P6 & Power BI Unified Agentic Mesh — connecting Oracle Primavera P6 Professional directly to Microsoft Power BI Desktop and Autonomous Headless Chromium.
+
+What happens when you let an agentic mesh own your schedule telemetry?
+
+1. Instant DCMA 14-Point Contractual Auditing
+The engine parses your P6 SQLite database (.db) or raw .XER in milliseconds. Missing logic, open ends, leads (negative lags), and loose float are detected against Saudi Aramco, NEOM, and US DoD standards before submission.
+
+2. Real-Time EVM & Dynamic S-Curve Generation
+DAX measures automatically evaluate Schedule Performance Index (SPI), Cost Performance Index (CPI), and Estimated Duration at Completion (EAC_t). When SPI drops below 1.0, conditional health indicators trigger automated alerts.
+
+3. Zero-Click Headless Chromium Dashboards
+On our cloud VM infrastructure, Headless Google Chrome boots without a display server, renders the live executive schedule analytics, and captures pixel-perfect HD snapshots for Telegram (@AzGem_Bot) and executive reporting.
+
+4. One-Click Power BI Desktop Refresh
+For management teams who need interactive slicers, the pipeline streams a clean, typed tabular dataset. Pressing "Refresh" in Power BI Desktop instantly updates the entire critical path analysis.
+
+No proprietary SaaS lock-in. 100% open-source, reproducible, and ready for your projects.
+
+Are you still building weekly dashboards by hand, or is your schedule talking directly to your BI dashboards?
+
+Full architecture, code, and live setup link in the first comment below.
+
+#PrimaveraP6 #PowerBI #ProjectControls #PlanningEngineer #ConstructionManagement #DataAnalytics #ArtificialIntelligence #Riyadh #SaudiArabia #Megaprojects

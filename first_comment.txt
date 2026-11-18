@@ -1,0 +1,8 @@
+GitHub Repository & Full Architecture Blueprint: https://github.com/Amz34/p6-powerbi-agentic-mesh
+
+Includes:
+- High-Performance XER to SQLite Streaming Parser
+- DCMA 14-Point Assessment Engine
+- Production EVM DAX Measure Suite (.dax)
+- Headless Chromium Automation Engine
+- One-Click Power BI Desktop Ingestion Template

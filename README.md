@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Standard: SCL Protocol 2nd Edition](https://img.shields.io/badge/Standard-SCL%20Delay%20Protocol-amber.svg)](docs/ARCHITECTURE.md)
 [![Compliance: DCMA 14--Point](https://img.shields.io/badge/Compliance-DCMA%2014--Point-emerald.svg)](core/dcma_auditor.py)
+[![Web Scheduler: Pathizer P7](https://img.shields.io/badge/Web%20Scheduler-Pathizer%20P7%20Zero--Install-blue.svg)](connectors/pathizer_p7/README.md)
 [![Risk Modeling: Monte Carlo P80](https://img.shields.io/badge/Risk%20Modeling-Monte%20Carlo%20P80-purple.svg)](core/monte_carlo.py)
 
 ---

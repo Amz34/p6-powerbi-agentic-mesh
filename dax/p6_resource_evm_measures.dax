@@ -1,0 +1,41 @@
+/*
+========================================================================================
+Enterprise Primavera P6 Resource & Cost Loading DAX Measure Suite
+For Microsoft Power BI Desktop (.pbix)
+Directly enables Labor, Equipment, and Material S-Curve Histograms
+========================================================================================
+*/
+
+// 1. Budgeted & Actual Resource Units
+Total Budgeted Units (Hours/Qty) = 
+SUM('P6_Resource_Assignments'[Target Qty])
+
+Total Actual Units (Hours/Qty) = 
+SUM('P6_Resource_Assignments'[Actual Qty])
+
+Remaining Units = 
+SUM('P6_Resource_Assignments'[Remaining Qty])
+
+// 2. Resource Unit Variance
+Units Variance (UV) = 
+[Total Budgeted Units (Hours/Qty)] - [Total Actual Units (Hours/Qty)]
+
+Units Burn Rate (%) = 
+DIVIDE([Total Actual Units (Hours/Qty)], [Total Budgeted Units (Hours/Qty)], 0) * 100
+
+// 3. Cost Loading & Performance (CPI)
+Budgeted Total Cost = 
+SUM('P6_Resource_Assignments'[Target Cost])
+
+Actual Cost of Work Performed (ACWP / AC) = 
+SUM('P6_Resource_Assignments'[Actual Cost])
+
+Cost Variance (CV) = 
+[Earned Value (EV)] - [Actual Cost of Work Performed (ACWP / AC)]
+
+Cost Performance Index (CPI) = 
+DIVIDE([Earned Value (EV)], [Actual Cost of Work Performed (ACWP / AC)], 1.0)
+
+// 4. Resource Allocation Health
+Resource Overrun Flag = 
+IF([Cost Performance Index (CPI)] < 1.0, "🔴 COST OVERRUN", "🟢 WITHIN BUDGET")

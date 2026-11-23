@@ -196,3 +196,7 @@ Adopting the **P6 & Power BI Unified Agentic Mesh** provides three structural ad
 1. **Immediate Risk Mitigation**: Identifies dangling logic, lead violations, and critical delay exposures before contractor claims are formalized.
 2. **Deterministic-to-Probabilistic Shift**: Transitions management from fragile single-date estimates to **P80 statistical certainty**, safeguarding capital allocation.
 3. **Zero-Latency Governance**: Delivers continuous, audited project controls data directly to C-suite executive dashboards without administrative delay.
+
+---
+
+Part of [my always-on agent stack](https://github.com/Amz34) · [Awesome Agent Infrastructure](https://github.com/Amz34/awesome-agent-infrastructure) (135 live-checked building blocks).

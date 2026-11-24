@@ -7,6 +7,8 @@
 [![Web Scheduler: Pathizer P7](https://img.shields.io/badge/Web%20Scheduler-Pathizer%20P7%20Zero--Install-blue.svg)](connectors/pathizer_p7/README.md)
 [![Risk Modeling: Monte Carlo P80](https://img.shields.io/badge/Risk%20Modeling-Monte%20Carlo%20P80-purple.svg)](core/monte_carlo.py)
 [![MEP Monitoring: QS Value-Weighted](https://img.shields.io/badge/MEP%20Monitoring-QS%20Value--Weighted-teal.svg)](core/mep_matrix_engine.py)
+[![4D BIM: IFC4 Compliant](https://img.shields.io/badge/4D%20BIM-IFC4%20Compliant-indigo.svg)](core/bim_4d_engine.py)
+[![Live Web Preview: GitHub Pages](https://img.shields.io/badge/Live%20Preview-GitHub%20Pages-success.svg)](https://amz34.github.io/p6-powerbi-agentic-mesh/)
 
 ---
 
@@ -127,7 +129,19 @@ The mesh includes an automated matrix engine (`core/mep_matrix_engine.py`) and d
 
 ---
 
-## 4. Step-by-Step Laptop Execution: Primavera P6 & Power BI Desktop
+## 4. 4D BIM Simulation & IFC4 Integration Engine
+
+The mesh bridges CPM scheduling to 3D Building Information Modeling (BIM) conforming to **ISO 16739-1 (IFC4)**:
+- **`IfcBuildingStorey` Hierarchy**: Substructure (-3.0m), Ground Floor (0.0m), Level 1 (3.8m), Level 2 (7.4m), Roof & Plant Room (11.0m).
+- **Deterministic IFC GUIDs**: Cryptographically mapped from P6 activity codes (`core/bim_4d_engine.py`).
+- **Interactive 4D WebGL Simulator**: Built directly into the executive web dashboard using **Three.js**:
+  - Drag the timeline scrubber from Day 0 to Day 1,500 to observe real-time color transitions.
+  - Green (Completed) $\rightarrow$ Amber (Active In-Progress) $\rightarrow$ Red (Critical Float $\le 0$) $\rightarrow$ Slate Ghost Wireframe (Not Started).
+  - OrbitControls: 360-degree rotation, multi-touch zoom, and pan.
+
+---
+
+## 5. Step-by-Step Laptop Execution: Primavera P6 & Power BI Desktop
 
 Follow these exact steps to run the complete enterprise workflow on your Windows laptop:
 
@@ -182,7 +196,7 @@ python3 p6_powerbi_mesh.py
 
 ---
 
-## 5. Repository Structure & System Specifications
+## 6. Repository Structure & System Specifications
 
 ```
 ├── .github/workflows/         # CI/CD Automated Logic Verification
@@ -192,6 +206,7 @@ python3 p6_powerbi_mesh.py
 ├── connectors/                # Third-Party Web Schedulers & Bridges
 │   └── pathizer_p7/           # Pathizer P7 Zero-Install Web Connector & Ingestion
 ├── core/                      # Algorithmic Scheduling & Risk Engines
+│   ├── bim_4d_engine.py       # 4D BIM IFC4 element mapping & simulation engine
 │   ├── dcma_auditor.py        # Contractual DCMA 14-point audit engine
 │   ├── delay_forensics.py     # SCL Protocol Time-Impact Delay Forensics
 │   ├── mep_matrix_engine.py   # MEP Storey/System Matrix & BOQ-weighting engine
@@ -207,9 +222,11 @@ python3 p6_powerbi_mesh.py
 │   └── ARCHITECTURE.md
 ├── output/                    # Real-Time Telemetry & Deliverables
 │   ├── P6_PowerBI_Feed.csv    # Power BI Desktop ingestion feed
-│   ├── index.html             # Interactive Executive Web Dashboard
+│   ├── bim_4d_model.json      # IFC4 4D BIM simulation model JSON
+│   ├── index.html             # Interactive Executive Web Dashboard & 4D BIM Viewer
 │   └── live_p6_powerbi_snapshot.png # HD Headless Chromium Render
 ├── tests/                     # Automated Contractual Unit Test Suite
+│   ├── test_bim_4d_engine.py  # 4D BIM IFC GUID & state transition tests
 │   ├── test_mep_engine.py     # MEP value-weighting vs linear bias tests
 │   ├── test_mesh.py           # Core DCMA & Monte Carlo verification
 │   ├── test_p7_bridge.py      # Pathizer P7 schema parity & round-trip tests
@@ -220,7 +237,7 @@ python3 p6_powerbi_mesh.py
 
 ---
 
-## 6. Strategic Takeaway & PMO Impact
+## 7. Strategic Takeaway & PMO Impact
 
 Adopting the **P6 & Power BI Unified Agentic Mesh** provides three structural advantages for executive capital project leadership:
 

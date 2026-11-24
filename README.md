@@ -6,6 +6,7 @@
 [![Compliance: DCMA 14--Point](https://img.shields.io/badge/Compliance-DCMA%2014--Point-emerald.svg)](core/dcma_auditor.py)
 [![Web Scheduler: Pathizer P7](https://img.shields.io/badge/Web%20Scheduler-Pathizer%20P7%20Zero--Install-blue.svg)](connectors/pathizer_p7/README.md)
 [![Risk Modeling: Monte Carlo P80](https://img.shields.io/badge/Risk%20Modeling-Monte%20Carlo%20P80-purple.svg)](core/monte_carlo.py)
+[![MEP Monitoring: QS Value-Weighted](https://img.shields.io/badge/MEP%20Monitoring-QS%20Value--Weighted-teal.svg)](core/mep_matrix_engine.py)
 
 ---
 
@@ -105,7 +106,28 @@ The following 5 activities carry zero successor logic, causing critical CPM disc
 
 ---
 
-## 3. Step-by-Step Laptop Execution: Primavera P6 & Power BI Desktop
+## 3. Storey & System-Wise MEP Monitoring Matrix & QS BOQ Value-Weighting
+
+Large-scale MEP (Mechanical, Electrical, Plumbing, ELV & Plant Rooms) execution requires floor-wise and system-wise matrix tracking across consecutive execution stages:
+1. **1st Fix**: Conduiting, underground drainage, duct hangers, and slab sleeves.
+2. **2nd Fix**: Cable pulling, ductwork installation, chilled water piping, and cable tray laying.
+3. **3rd Fix / Final**: Equipment positioning, wiring accessories, diffusers, and sanitary fixtures.
+4. **Testing & Commissioning**: Hydrostatic pressure testing, megger testing, duct leakage, TAB, and integrated BMS handshakes.
+
+### The Arithmetic Distortion Trap vs. QS Value-Weighting
+Standard PMO reporting commits a dangerous fallacy: calculating progress as a straight arithmetic average of activity percentages. 
+> *Industry Invariant: 70% of first fix conduits and 70% of a chiller plant room do not carry equal financial value or schedule criticality.*
+
+In project `EC00501`:
+- **Linear Arithmetic Average Progress**: **23.36%**
+- **QS Value / Duration-Weighted Progress**: **19.13%**
+- **Hidden Schedule Distortion**: **-4.23%** (Masked delay in critical HVAC / Plant equipment)
+
+The mesh includes an automated matrix engine (`core/mep_matrix_engine.py`) and dedicated Power BI DAX formulas (`dax/mep_weighted_measures.dax`) to guarantee that matrix progress reflects actual capital investment and critical path exposure.
+
+---
+
+## 4. Step-by-Step Laptop Execution: Primavera P6 & Power BI Desktop
 
 Follow these exact steps to run the complete enterprise workflow on your Windows laptop:
 
@@ -160,21 +182,27 @@ python3 p6_powerbi_mesh.py
 
 ---
 
-## 4. Repository Structure & System Specifications
+## 5. Repository Structure & System Specifications
 
 ```
 ├── .github/workflows/         # CI/CD Automated Logic Verification
 │   └── ci.yml
 ├── api/                       # Streaming REST Server for Power BI Web Connectors
 │   └── server.py              # Endpoints: /api/kpi, /api/activities
+├── connectors/                # Third-Party Web Schedulers & Bridges
+│   └── pathizer_p7/           # Pathizer P7 Zero-Install Web Connector & Ingestion
 ├── core/                      # Algorithmic Scheduling & Risk Engines
 │   ├── dcma_auditor.py        # Contractual DCMA 14-point audit engine
 │   ├── delay_forensics.py     # SCL Protocol Time-Impact Delay Forensics
+│   ├── mep_matrix_engine.py   # MEP Storey/System Matrix & BOQ-weighting engine
 │   ├── monte_carlo.py         # 1,000-Iteration P50/P80 Monte Carlo engine
 │   ├── resource_leveler.py    # Crew overallocation & histogram smoothing
+│   ├── smart_resource_loader.py # Cost/Labor Smart Loading & EVM S-Curve Engine
 │   └── xer_parser.py          # High-performance XER streaming parser
 ├── dax/                       # Production DAX Measure Library (.dax)
-│   └── p6_enterprise_measures.dax
+│   ├── mep_weighted_measures.dax # QS-grade weighted progress & floor matrix DAX
+│   ├── p6_enterprise_measures.dax # Core SPI, CPI, Criticality DAX
+│   └── p6_resource_evm_measures.dax # EVM Cost & Earned Value DAX
 ├── docs/                      # Technical Documentation & System Topology
 │   └── ARCHITECTURE.md
 ├── output/                    # Real-Time Telemetry & Deliverables
@@ -182,14 +210,17 @@ python3 p6_powerbi_mesh.py
 │   ├── index.html             # Interactive Executive Web Dashboard
 │   └── live_p6_powerbi_snapshot.png # HD Headless Chromium Render
 ├── tests/                     # Automated Contractual Unit Test Suite
-│   └── test_mesh.py
+│   ├── test_mep_engine.py     # MEP value-weighting vs linear bias tests
+│   ├── test_mesh.py           # Core DCMA & Monte Carlo verification
+│   ├── test_p7_bridge.py      # Pathizer P7 schema parity & round-trip tests
+│   └── test_resource_loader.py# EVM cost & resource distribution tests
 ├── p6_powerbi_mesh.py         # Main Orchestration Engine
 └── sync_p6_laptop_watcher.ps1   # Windows PowerShell Automation Watcher
 ```
 
 ---
 
-## 5. Strategic Takeaway & PMO Impact
+## 6. Strategic Takeaway & PMO Impact
 
 Adopting the **P6 & Power BI Unified Agentic Mesh** provides three structural advantages for executive capital project leadership:
 

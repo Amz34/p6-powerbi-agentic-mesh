@@ -1,0 +1,2047 @@
+{
+  "project_name": "P6-PowerBI 4D BIM Simulation",
+  "ifc_schema": "IFC4_ADD2_TC1",
+  "total_elements": 78,
+  "storeys_distribution": {
+    "Level 2": 18,
+    "Substructure": 14,
+    "Ground Floor": 23,
+    "Level 1": 7,
+    "Roof & Plant Room": 16
+  },
+  "simulation_states": {
+    "COMPLETED": 26,
+    "IN_PROGRESS": 3,
+    "NOT_STARTED": 49
+  },
+  "elements": [
+    {
+      "ifc_guid": "qyCRQi8Gp9B00000000000",
+      "activity_id": "EC1300",
+      "activity_name": "Award Contract for Flooring",
+      "wbs": "Floor and Carpeting",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-05-27",
+      "planned_finish": "2011-06-03",
+      "total_float_days": 231.08125,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -4.0,
+        "y": 9.2,
+        "z": 0.6,
+        "width": 4.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "Fm7J6EMqGU400000000000",
+      "activity_id": "EC1090",
+      "activity_name": "Begin Building Construction",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -4.0,
+        "y": -1.5,
+        "z": 5.28,
+        "width": 2.0,
+        "height": 3.0,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "Nosotz0XYUF00000000000",
+      "activity_id": "EC1360",
+      "activity_name": "Form and Pour Slab",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-08-26",
+      "planned_finish": "2011-09-12",
+      "total_float_days": 126.910416625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 1.44,
+        "y": -1.5,
+        "z": 3.96,
+        "width": 2.0,
+        "height": 3.0,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "co2pPTmB$qB00000000000",
+      "activity_id": "EC1510",
+      "activity_name": "Rough-In Plumbing/Piping",
+      "wbs": "Plumbing and Electrical",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-08-24",
+      "planned_finish": "2012-08-29",
+      "total_float_days": 72.3375,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 7.04,
+        "y": 1.9,
+        "z": 3.96,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "G5woQfjRID200000000000",
+      "activity_id": "EC1800",
+      "activity_name": "Finish Carpentry and Millwork",
+      "wbs": "Carpentry",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2013-06-03",
+      "planned_finish": "2013-06-19",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 4.8,
+        "y": 9.2,
+        "z": 2.52,
+        "width": 2.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "8IyVeUM_ltE00000000000",
+      "activity_id": "EC1480",
+      "activity_name": "Concrete Second Floor",
+      "wbs": "Structure",
+      "ifc_storey": "Level 1",
+      "ifc_element_type": "IfcBeam",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-03-01",
+      "planned_finish": "2012-04-20",
+      "total_float_days": 126.910416625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -4.8,
+        "y": 5.6,
+        "z": -5.76,
+        "width": 3.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "Fm7J6EMqGU400000000000",
+      "activity_id": "EC1090",
+      "activity_name": "Begin Building Construction",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-09-22",
+      "planned_finish": "2011-09-22",
+      "total_float_days": 165.110416625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -4.0,
+        "y": -1.5,
+        "z": 5.28,
+        "width": 2.0,
+        "height": 3.0,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "vw3gzrzjny200000000000",
+      "activity_id": "EC1490",
+      "activity_name": "Rough-In Phase Begins",
+      "wbs": "Mechanical/Electrical Systems",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-11-03",
+      "planned_finish": "2011-11-03",
+      "total_float_days": 216.972916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 6.08,
+        "y": 1.9,
+        "z": 1.44,
+        "width": 3.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "Mv133k8S_4B00000000000",
+      "activity_id": "EC1690",
+      "activity_name": "Rough In Complete",
+      "wbs": "Mechanical/Electrical Systems",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-09-05",
+      "planned_finish": "2012-09-05",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 5.12,
+        "y": 13.1,
+        "z": 5.52,
+        "width": 4.0,
+        "height": 4.2,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "ncNbCRBOBr200000000000",
+      "activity_id": "EC1270",
+      "activity_name": "Award Contract for Heat Pump",
+      "wbs": "HVAC",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -1.44,
+        "y": 13.1,
+        "z": 3.84,
+        "width": 3.0,
+        "height": 4.2,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "mPil18iI$9D00000000000",
+      "activity_id": "EC1190",
+      "activity_name": "Prepare and Solicit Bids for Heat Pump",
+      "wbs": "HVAC",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -2.24,
+        "y": 13.1,
+        "z": -3.96,
+        "width": 3.0,
+        "height": 4.2,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "EqoAQA3qyuC00000000000",
+      "activity_id": "EC1240",
+      "activity_name": "Review Bids for Heat Pump",
+      "wbs": "HVAC",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -6.24,
+        "y": 13.1,
+        "z": 3.96,
+        "width": 2.0,
+        "height": 4.2,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "3yvTdmy3Zy400000000000",
+      "activity_id": "EC1290",
+      "activity_name": "Fabricate and Deliver Heat Pump and Controls",
+      "wbs": "HVAC",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 14.0,
+      "planned_start": "2011-05-02",
+      "planned_finish": "2012-08-09",
+      "total_float_days": 0.0,
+      "simulation_state": "CRITICAL_IN_PROGRESS",
+      "visual_style": {
+        "color": "#f43f5e",
+        "opacity": 0.85,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 7.04,
+        "y": 13.1,
+        "z": 3.6,
+        "width": 3.0,
+        "height": 4.2,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "x4jM$J1rcH100000000000",
+      "activity_id": "EC1500",
+      "activity_name": "Install HVAC Ducts",
+      "wbs": "HVAC",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-11-03",
+      "planned_finish": "2011-12-02",
+      "total_float_days": 174.972916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -4.0,
+        "y": 13.1,
+        "z": -1.44,
+        "width": 2.0,
+        "height": 4.2,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "8s4qrLb_y5500000000000",
+      "activity_id": "EC1630",
+      "activity_name": "Insulate Ducts",
+      "wbs": "HVAC",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-01-26",
+      "planned_finish": "2012-02-01",
+      "total_float_days": 135.772916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -7.52,
+        "y": 13.1,
+        "z": -0.6,
+        "width": 2.0,
+        "height": 4.2,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "yAbsLkHjZB800000000000",
+      "activity_id": "EC1650",
+      "activity_name": "Set Heat Pump",
+      "wbs": "HVAC",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-08-09",
+      "planned_finish": "2012-08-23",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 5.44,
+        "y": 13.1,
+        "z": -3.84,
+        "width": 2.0,
+        "height": 4.2,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "v7lpLuE92X200000000000",
+      "activity_id": "EC1680",
+      "activity_name": "Startup and Test HVAC",
+      "wbs": "HVAC",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-09-03",
+      "planned_finish": "2012-09-05",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 1.92,
+        "y": 13.1,
+        "z": 1.2,
+        "width": 3.0,
+        "height": 4.2,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "zfG41WCGK7D00000000000",
+      "activity_id": "EC1770",
+      "activity_name": "Install AC Grills and Registers",
+      "wbs": "HVAC",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-10-30",
+      "planned_finish": "2012-11-06",
+      "total_float_days": 18.5,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 0.32,
+        "y": 13.1,
+        "z": 4.68,
+        "width": 2.0,
+        "height": 4.2,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "Ff2R_Ltg6f800000000000",
+      "activity_id": "EC1830",
+      "activity_name": "Test and Balance HVAC Equipment",
+      "wbs": "HVAC",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2013-01-03",
+      "planned_finish": "2013-01-07",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -5.28,
+        "y": 13.1,
+        "z": -0.48,
+        "width": 2.0,
+        "height": 4.2,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "43CrgXMFx$000000000000",
+      "activity_id": "EC1670",
+      "activity_name": "Relocate HVAC Chiller",
+      "wbs": "HVAC",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-08-23",
+      "planned_finish": "2012-09-03",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 0.96,
+        "y": 13.1,
+        "z": 3.72,
+        "width": 3.0,
+        "height": 4.2,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "0nACxlpdER900000000000",
+      "activity_id": "EC1520",
+      "activity_name": "Install Elevator Rails and Equipment",
+      "wbs": "Elevator",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-11-23",
+      "planned_finish": "2011-11-25",
+      "total_float_days": 202.972916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 7.04,
+        "y": 1.9,
+        "z": 5.88,
+        "width": 2.0,
+        "height": 3.8,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "RMSD8tqVJDD00000000000",
+      "activity_id": "EC1710",
+      "activity_name": "Install Elevator Cab and Finishes",
+      "wbs": "Elevator",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-09-05",
+      "planned_finish": "2012-09-11",
+      "total_float_days": 79.8,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -3.04,
+        "y": 9.2,
+        "z": -1.68,
+        "width": 4.0,
+        "height": 3.6,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "MQ4K81RqSM400000000000",
+      "activity_id": "EC1440",
+      "activity_name": "Set Mechanical and Electrical Equipment",
+      "wbs": "Plumbing and Electrical",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-09-20",
+      "planned_finish": "2011-11-03",
+      "total_float_days": 174.972916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 2.88,
+        "y": 13.1,
+        "z": -3.6,
+        "width": 4.0,
+        "height": 4.2,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "co2pPTmB$qB00000000000",
+      "activity_id": "EC1510",
+      "activity_name": "Rough-In Plumbing/Piping",
+      "wbs": "Plumbing and Electrical",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-11-09",
+      "planned_finish": "2011-11-11",
+      "total_float_days": 175.472916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 7.04,
+        "y": 1.9,
+        "z": 3.96,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "U_HX_aFoRD100000000000",
+      "activity_id": "EC1640",
+      "activity_name": "Install Wiring and Cable",
+      "wbs": "Plumbing and Electrical",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-01-26",
+      "planned_finish": "2012-03-09",
+      "total_float_days": 124.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 0.96,
+        "y": 1.9,
+        "z": -3.6,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "JeR6OshTaUB00000000000",
+      "activity_id": "EC1660",
+      "activity_name": "Connect Equipment",
+      "wbs": "Plumbing and Electrical",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-08-23",
+      "planned_finish": "2012-08-24",
+      "total_float_days": 5.3,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 7.04,
+        "y": 1.9,
+        "z": -4.68,
+        "width": 3.0,
+        "height": 3.8,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "u1d8fFahBc000000000000",
+      "activity_id": "EC1590",
+      "activity_name": "Close-In Phase Begins",
+      "wbs": "Exterior Finishes",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-12-28",
+      "planned_finish": "2011-12-28",
+      "total_float_days": 272.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 3.04,
+        "y": 9.2,
+        "z": -2.52,
+        "width": 3.0,
+        "height": 3.6,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "f8pz8i7_ZW900000000000",
+      "activity_id": "EC1620",
+      "activity_name": "Building Enclosed",
+      "wbs": "Exterior Finishes",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-01-26",
+      "planned_finish": "2012-01-26",
+      "total_float_days": 124.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 6.4,
+        "y": 9.2,
+        "z": 0.48,
+        "width": 3.0,
+        "height": 3.6,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "mpfRCGKFB4C00000000000",
+      "activity_id": "EC1560",
+      "activity_name": "Install Door and Window Frames",
+      "wbs": "Doors and Windows",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-12-14",
+      "planned_finish": "2011-12-16",
+      "total_float_days": 148.672916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 2.08,
+        "y": 1.9,
+        "z": 5.28,
+        "width": 3.0,
+        "height": 3.8,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "FJ6qsM5ZDAA00000000000",
+      "activity_id": "EC1580",
+      "activity_name": "Install Exterior Doors and Windows",
+      "wbs": "Doors and Windows",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-12-16",
+      "planned_finish": "2011-12-22",
+      "total_float_days": 148.672916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -7.52,
+        "y": 1.9,
+        "z": -5.16,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "qWE43DsLZk100000000000",
+      "activity_id": "EC1600",
+      "activity_name": "Insulation and Built-up Roofing",
+      "wbs": "Roof",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-12-28",
+      "planned_finish": "2012-01-26",
+      "total_float_days": 124.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -2.24,
+        "y": 13.1,
+        "z": -0.12,
+        "width": 3.0,
+        "height": 4.2,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "U05ZA7w84Q000000000000",
+      "activity_id": "EC1180",
+      "activity_name": "Prepare and Solicit Bids for Brick Exterior",
+      "wbs": "Brick",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 7.2,
+        "y": 1.9,
+        "z": 1.92,
+        "width": 2.0,
+        "height": 3.8,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "aD_fj2OBAc100000000000",
+      "activity_id": "EC1220",
+      "activity_name": "Review Bids for Brick",
+      "wbs": "Brick",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -1.76,
+        "y": 1.9,
+        "z": -0.96,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "S9Qd4Lu7Ld700000000000",
+      "activity_id": "EC1260",
+      "activity_name": "Award Contract for Brick",
+      "wbs": "Brick",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 6.08,
+        "y": 1.9,
+        "z": -2.4,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "Lm9T_GHJNGE00000000000",
+      "activity_id": "EC1040",
+      "activity_name": "Assemble Brick Samples",
+      "wbs": "Brick",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -6.08,
+        "y": 1.9,
+        "z": 0.6,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "B8jHo5kKEmB00000000000",
+      "activity_id": "EC1070",
+      "activity_name": "Review and Approve Brick Samples",
+      "wbs": "Brick",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 0.64,
+        "y": 1.9,
+        "z": -3.24,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "78dRcfQasQ800000000000",
+      "activity_id": "EC1280",
+      "activity_name": "Deliver Brick",
+      "wbs": "Brick",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 7.84,
+        "y": 1.9,
+        "z": 5.4,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "jXa83rOMl0A00000000000",
+      "activity_id": "EC1550",
+      "activity_name": "Brick Exterior Walls",
+      "wbs": "Brick",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-12-07",
+      "planned_finish": "2011-12-28",
+      "total_float_days": 124.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -1.6,
+        "y": 1.9,
+        "z": -3.48,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "GD1iCNkFA4900000000000",
+      "activity_id": "EC1700",
+      "activity_name": "Drywall in Offices",
+      "wbs": "Interior Finishes",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-09-05",
+      "planned_finish": "2012-10-18",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -4.32,
+        "y": 9.2,
+        "z": -2.04,
+        "width": 3.0,
+        "height": 3.6,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "qcRDjMQ0Na300000000000",
+      "activity_id": "EC1820",
+      "activity_name": "Touch-up and Clean-up",
+      "wbs": "Interior Finishes",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2013-01-01",
+      "planned_finish": "2013-01-03",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -3.04,
+        "y": 9.2,
+        "z": -2.88,
+        "width": 2.0,
+        "height": 3.6,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "eZCin8qS5OB00000000000",
+      "activity_id": "EC1840",
+      "activity_name": "Finishes Complete",
+      "wbs": "Interior Finishes",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2013-01-07",
+      "planned_finish": "2013-01-07",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -6.72,
+        "y": 9.2,
+        "z": 2.04,
+        "width": 4.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "k9WHtCsy_FB00000000000",
+      "activity_id": "EC1850",
+      "activity_name": "Punch List",
+      "wbs": "Interior Finishes",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2013-01-07",
+      "planned_finish": "2013-01-11",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 3.04,
+        "y": 9.2,
+        "z": 3.36,
+        "width": 4.0,
+        "height": 3.6,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "uOhC0qn6Ad400000000000",
+      "activity_id": "EC1860",
+      "activity_name": "Building Addition Complete",
+      "wbs": "Interior Finishes",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2013-01-11",
+      "planned_finish": "2013-01-11",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 2.24,
+        "y": 9.2,
+        "z": 2.16,
+        "width": 4.0,
+        "height": 3.6,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "q8YOkOwvb2A00000000000",
+      "activity_id": "EC1760",
+      "activity_name": "Install Lighting Fixtures",
+      "wbs": "Plumbing and Lighting Fixtures",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-10-30",
+      "planned_finish": "2012-11-07",
+      "total_float_days": 17.2,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -7.52,
+        "y": 1.9,
+        "z": -0.48,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "Em2gvETfpf500000000000",
+      "activity_id": "EC1810",
+      "activity_name": "Install Plumbing Fixtures",
+      "wbs": "Plumbing and Lighting Fixtures",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-12-17",
+      "planned_finish": "2012-12-21",
+      "total_float_days": 6.3,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 5.92,
+        "y": 1.9,
+        "z": 1.92,
+        "width": 2.0,
+        "height": 3.8,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "g8RgwQQuD6500000000000",
+      "activity_id": "EC1170",
+      "activity_name": "Prepare and Solicit Bids for Flooring",
+      "wbs": "Floor and Carpeting",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 6.4,
+        "y": 9.2,
+        "z": -3.0,
+        "width": 4.0,
+        "height": 3.6,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "lKNP3iFN10400000000000",
+      "activity_id": "EC1250",
+      "activity_name": "Review Bids for Flooring",
+      "wbs": "Floor and Carpeting",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 7.36,
+        "y": 9.2,
+        "z": 3.36,
+        "width": 4.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "qyCRQi8Gp9B00000000000",
+      "activity_id": "EC1300",
+      "activity_name": "Award Contract for Flooring",
+      "wbs": "Floor and Carpeting",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -4.0,
+        "y": 9.2,
+        "z": 0.6,
+        "width": 4.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "eqElBxDM5X000000000000",
+      "activity_id": "EC1060",
+      "activity_name": "Assemble and Submit Flooring Samples",
+      "wbs": "Floor and Carpeting",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 3.36,
+        "y": 9.2,
+        "z": -3.24,
+        "width": 2.0,
+        "height": 3.6,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "MVmqhxF5sg300000000000",
+      "activity_id": "EC1080",
+      "activity_name": "Review and Approve Flooring",
+      "wbs": "Floor and Carpeting",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -6.56,
+        "y": 9.2,
+        "z": -0.24,
+        "width": 2.0,
+        "height": 3.6,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "Gre0UbxPcQ000000000000",
+      "activity_id": "EC1310",
+      "activity_name": "Fabricate and Deliver Flooring",
+      "wbs": "Floor and Carpeting",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 23.0,
+      "planned_start": "2011-05-02",
+      "planned_finish": "2012-02-03",
+      "total_float_days": 215.572916625,
+      "simulation_state": "IN_PROGRESS",
+      "visual_style": {
+        "color": "#f59e0b",
+        "opacity": 0.85,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -4.8,
+        "y": 9.2,
+        "z": -0.36,
+        "width": 3.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "mf3x2m9rDv900000000000",
+      "activity_id": "EC1790",
+      "activity_name": "Install Floor and Carpeting",
+      "wbs": "Floor and Carpeting",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-12-03",
+      "planned_finish": "2012-12-17",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 1.28,
+        "y": 1.9,
+        "z": 4.56,
+        "width": 3.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "rKf06q$eZyE00000000000",
+      "activity_id": "EC1720",
+      "activity_name": "Paint Building Interior",
+      "wbs": "Paint",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-09-14",
+      "planned_finish": "2012-09-28",
+      "total_float_days": 66.5,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 7.2,
+        "y": 1.9,
+        "z": -3.36,
+        "width": 3.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "QeMNRfQfehB00000000000",
+      "activity_id": "EC1740",
+      "activity_name": "Install Ceiling Grid",
+      "wbs": "Carpentry",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-10-18",
+      "planned_finish": "2012-12-03",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 1.76,
+        "y": 9.2,
+        "z": 4.08,
+        "width": 2.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "G5woQfjRID200000000000",
+      "activity_id": "EC1800",
+      "activity_name": "Finish Carpentry and Millwork",
+      "wbs": "Carpentry",
+      "ifc_storey": "Level 2",
+      "ifc_element_type": "IfcWall",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2012-12-17",
+      "planned_finish": "2013-01-01",
+      "total_float_days": 0.0,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 4.8,
+        "y": 9.2,
+        "z": 2.52,
+        "width": 2.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "CoMnKELuqx000000000000",
+      "activity_id": "EC1000",
+      "activity_name": "Design Building Addition",
+      "wbs": "Design and Engineering",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 6.88,
+        "y": 1.9,
+        "z": 5.52,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "I0o5FB2bUI800000000000",
+      "activity_id": "EC1050",
+      "activity_name": "Assemble Technical Data for Heat Pump",
+      "wbs": "Design and Engineering",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 3.52,
+        "y": 13.1,
+        "z": 5.04,
+        "width": 2.0,
+        "height": 4.2,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "zyUo4nVj0PF00000000000",
+      "activity_id": "EC1160",
+      "activity_name": "Review Technical Data on Heat Pumps",
+      "wbs": "Design and Engineering",
+      "ifc_storey": "Roof & Plant Room",
+      "ifc_element_type": "IfcDistributionFlowElement",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -4.96,
+        "y": 13.1,
+        "z": 1.68,
+        "width": 3.0,
+        "height": 4.2,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "9FLm_$2BwW800000000000",
+      "activity_id": "EC1030",
+      "activity_name": "Review and Approve Designs",
+      "wbs": "Design and Engineering",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -4.64,
+        "y": 1.9,
+        "z": -0.12,
+        "width": 2.0,
+        "height": 3.8,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "fjkTGzm2qPA00000000000",
+      "activity_id": "EC1010",
+      "activity_name": "Start Office Building Addition Project",
+      "wbs": "Design and Engineering",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 4.0,
+        "y": 1.9,
+        "z": 2.4,
+        "width": 2.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "Fm7J6EMqGU400000000000",
+      "activity_id": "EC1090",
+      "activity_name": "Begin Building Construction",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -4.0,
+        "y": -1.5,
+        "z": 5.28,
+        "width": 2.0,
+        "height": 3.0,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "UdZ4IIG2CMA00000000000",
+      "activity_id": "EC1100",
+      "activity_name": "Site Preparation",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 2.24,
+        "y": -1.5,
+        "z": -3.48,
+        "width": 2.0,
+        "height": 3.0,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "RgzXB_1uaC000000000000",
+      "activity_id": "EC1230",
+      "activity_name": "Excavation",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -3.04,
+        "y": -1.5,
+        "z": -1.56,
+        "width": 2.0,
+        "height": 3.0,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "RrdwtIO2qc400000000000",
+      "activity_id": "EC1320",
+      "activity_name": "Install Underground Water Lines",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 4.16,
+        "y": -1.5,
+        "z": -2.4,
+        "width": 2.0,
+        "height": 3.0,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "AOn4K5kJOpA00000000000",
+      "activity_id": "EC1330",
+      "activity_name": "Install Underground Electric Conduit",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -2.88,
+        "y": -1.5,
+        "z": 4.8,
+        "width": 4.0,
+        "height": 3.0,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "PUkRKTNs34A00000000000",
+      "activity_id": "EC1340",
+      "activity_name": "Form/Pour Concrete Footings",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 100.0,
+      "planned_start": "2011-05-01",
+      "planned_finish": "2011-05-01",
+      "total_float_days": 0.0,
+      "simulation_state": "COMPLETED",
+      "visual_style": {
+        "color": "#10b981",
+        "opacity": 0.95,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": 5.6,
+        "y": -1.5,
+        "z": 1.08,
+        "width": 4.0,
+        "height": 3.0,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "JZuHgnPDlJF00000000000",
+      "activity_id": "EC1350",
+      "activity_name": "Concrete Foundation Walls",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 70.0,
+      "planned_start": "2011-05-02",
+      "planned_finish": "2011-05-12",
+      "total_float_days": 124.272916625,
+      "simulation_state": "IN_PROGRESS",
+      "visual_style": {
+        "color": "#f59e0b",
+        "opacity": 0.85,
+        "wireframe": false
+      },
+      "spatial_box": {
+        "x": -0.96,
+        "y": -1.5,
+        "z": 5.4,
+        "width": 4.0,
+        "height": 3.0,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "WkAgeUuo3VB00000000000",
+      "activity_id": "EC1370",
+      "activity_name": "Backfill and Compact Walls",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-05-27",
+      "planned_finish": "2011-06-02",
+      "total_float_days": 124.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 0.64,
+        "y": -1.5,
+        "z": 3.96,
+        "width": 4.0,
+        "height": 3.0,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "iR4D59f4m4400000000000",
+      "activity_id": "EC1380",
+      "activity_name": "Foundation Phase Complete",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-06-02",
+      "planned_finish": "2011-06-02",
+      "total_float_days": 187.710416625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -4.96,
+        "y": -1.5,
+        "z": 3.6,
+        "width": 4.0,
+        "height": 3.0,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "Nosotz0XYUF00000000000",
+      "activity_id": "EC1360",
+      "activity_name": "Form and Pour Slab",
+      "wbs": "Foundation",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-05-12",
+      "planned_finish": "2011-05-26",
+      "total_float_days": 124.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 1.44,
+        "y": -1.5,
+        "z": 3.96,
+        "width": 2.0,
+        "height": 3.0,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "ZUE$7FwXeH500000000000",
+      "activity_id": "EC1410",
+      "activity_name": "Begin Structural Phase",
+      "wbs": "Structure",
+      "ifc_storey": "Level 1",
+      "ifc_element_type": "IfcBeam",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-08-01",
+      "planned_finish": "2011-08-01",
+      "total_float_days": 379.372916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 2.4,
+        "y": 5.6,
+        "z": 1.2,
+        "width": 2.0,
+        "height": 3.6,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "CtpdqrXrELF00000000000",
+      "activity_id": "EC1390",
+      "activity_name": "Erect Structural Frame",
+      "wbs": "Structure",
+      "ifc_storey": "Level 1",
+      "ifc_element_type": "IfcBeam",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-06-02",
+      "planned_finish": "2011-08-01",
+      "total_float_days": 124.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 7.68,
+        "y": 5.6,
+        "z": 0.96,
+        "width": 2.0,
+        "height": 3.6,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "9Ps8BZdUKbC00000000000",
+      "activity_id": "EC1420",
+      "activity_name": "Floor Decking",
+      "wbs": "Structure",
+      "ifc_storey": "Level 1",
+      "ifc_element_type": "IfcBeam",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-08-01",
+      "planned_finish": "2011-09-09",
+      "total_float_days": 124.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -3.04,
+        "y": 5.6,
+        "z": 1.8,
+        "width": 3.0,
+        "height": 3.6,
+        "depth": 4.0
+      }
+    },
+    {
+      "ifc_guid": "j7VCPg2XgK400000000000",
+      "activity_id": "EC1460",
+      "activity_name": "Erect Stairwell and Elevator Walls",
+      "wbs": "Structure",
+      "ifc_storey": "Level 1",
+      "ifc_element_type": "IfcBeam",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-10-25",
+      "planned_finish": "2011-11-23",
+      "total_float_days": 134.772916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 5.6,
+        "y": 5.6,
+        "z": -4.92,
+        "width": 2.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "EIULEpjNpKE00000000000",
+      "activity_id": "EC1430",
+      "activity_name": "Concrete First Floor",
+      "wbs": "Structure",
+      "ifc_storey": "Ground Floor",
+      "ifc_element_type": "IfcSlab",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-09-09",
+      "planned_finish": "2011-10-25",
+      "total_float_days": 124.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 0.0,
+        "y": 1.9,
+        "z": 0.84,
+        "width": 4.0,
+        "height": 3.8,
+        "depth": 2.0
+      }
+    },
+    {
+      "ifc_guid": "ji8UJtfFHcC00000000000",
+      "activity_id": "EC1470",
+      "activity_name": "Concrete Basement Slab",
+      "wbs": "Structure",
+      "ifc_storey": "Substructure",
+      "ifc_element_type": "IfcFooting",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-10-25",
+      "planned_finish": "2011-11-23",
+      "total_float_days": 134.772916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 2.08,
+        "y": -1.5,
+        "z": -2.4,
+        "width": 4.0,
+        "height": 3.0,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "Jt9EsQzkYe600000000000",
+      "activity_id": "EC1540",
+      "activity_name": "Structure Complete",
+      "wbs": "Structure",
+      "ifc_storey": "Level 1",
+      "ifc_element_type": "IfcBeam",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-12-07",
+      "planned_finish": "2011-12-07",
+      "total_float_days": 124.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": 2.24,
+        "y": 5.6,
+        "z": 2.76,
+        "width": 3.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    },
+    {
+      "ifc_guid": "8IyVeUM_ltE00000000000",
+      "activity_id": "EC1480",
+      "activity_name": "Concrete Second Floor",
+      "wbs": "Structure",
+      "ifc_storey": "Level 1",
+      "ifc_element_type": "IfcBeam",
+      "physical_pct_complete": 0.0,
+      "planned_start": "2011-10-25",
+      "planned_finish": "2011-12-07",
+      "total_float_days": 124.272916625,
+      "simulation_state": "NOT_STARTED",
+      "visual_style": {
+        "color": "#64748b",
+        "opacity": 0.25,
+        "wireframe": true
+      },
+      "spatial_box": {
+        "x": -4.8,
+        "y": 5.6,
+        "z": -5.76,
+        "width": 3.0,
+        "height": 3.6,
+        "depth": 3.0
+      }
+    }
+  ]
+}

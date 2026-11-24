@@ -1,0 +1,62 @@
+/*
+========================================================================================
+Enterprise MEP Progress Monitoring & Value-Weighted DAX Measure Suite
+Eliminates straight-average distortion across Electrical, HVAC, Plumbing & Plant Rooms
+========================================================================================
+*/
+
+// 1. Straight Average Progress (For comparison / baseline sanity)
+MEP Straight Average Complete (%) = 
+AVERAGEX(
+    FILTER(
+        'P6_Activities', 
+        SEARCH("Plumbing", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+        SEARCH("Electrical", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+        SEARCH("HVAC", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+        SEARCH("Mechanical", 'P6_Activities'[Activity Name], 1, 0) > 0
+    ),
+    'P6_Activities'[Physical % Complete]
+)
+
+// 2. BOQ / Duration Value-Weighted MEP Progress (%) [QS Standard]
+MEP Weighted Progress Complete (%) = 
+VAR TotalMEPWeight = 
+    CALCULATE(
+        SUM('P6_Activities'[Planned Duration (Days)]),
+        FILTER(
+            'P6_Activities',
+            SEARCH("Plumbing", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+            SEARCH("Electrical", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+            SEARCH("HVAC", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+            SEARCH("Mechanical", 'P6_Activities'[Activity Name], 1, 0) > 0
+        )
+    )
+VAR WeightedSum = 
+    CALCULATE(
+        SUMX('P6_Activities', 'P6_Activities'[Planned Duration (Days)] * DIVIDE('P6_Activities'[Physical % Complete], 100, 0)),
+        FILTER(
+            'P6_Activities',
+            SEARCH("Plumbing", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+            SEARCH("Electrical", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+            SEARCH("HVAC", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+            SEARCH("Mechanical", 'P6_Activities'[Activity Name], 1, 0) > 0
+        )
+    )
+RETURN
+    DIVIDE(WeightedSum, TotalMEPWeight, 0) * 100
+
+// 3. Storey & System Readiness Metric
+MEP Critical Path Delay Flag = 
+CALCULATE(
+    COUNTROWS('P6_Activities'),
+    FILTER(
+        'P6_Activities',
+        'P6_Activities'[Criticality] = "Critical" &&
+        (
+            SEARCH("Plumbing", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+            SEARCH("Electrical", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+            SEARCH("HVAC", 'P6_Activities'[Activity Name], 1, 0) > 0 ||
+            SEARCH("Mechanical", 'P6_Activities'[Activity Name], 1, 0) > 0
+        )
+    )
+)

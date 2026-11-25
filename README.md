@@ -36,6 +36,12 @@ The **P6 & Power BI Unified Agentic Mesh** resolves this friction by bridging Or
 
 ---
 
+## 🏛 System Topology & Pipeline
+
+![P6 Power BI Architecture](assets/architecture-overview.svg)
+
+---
+
 ## Autonomous Telemetry & Visualization Artifacts
 
 The entire analytics dashboard below is generated without opening a desktop GUI, utilizing our **Headless Google Chrome** rendering pipeline (`google-chrome --headless --screenshot`):
